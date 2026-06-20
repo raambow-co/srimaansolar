@@ -31,7 +31,7 @@ const StatCounter = ({ value, duration = 1500, prefix = '', suffix = '' }) => {
   }, [isInView, value, duration]);
 
   return (
-    <span ref={ref} className="font-black text-4xl sm:text-5xl md:text-6xl text-white tracking-tight">
+    <span ref={ref} className="font-black text-3xl sm:text-4xl md:text-5xl text-white tracking-tight">
       {prefix}
       {count.toLocaleString('en-IN')}
       {suffix}
@@ -42,15 +42,15 @@ const StatCounter = ({ value, duration = 1500, prefix = '', suffix = '' }) => {
 const Stats = () => {
   const stats = [
     {
-      icon: <Users className="h-7 w-7 text-solar-orange" />,
-      value: '500',
+      icon: <Users className="h-6 w-6 text-solar-orange" />,
+      value: '200',
       prefix: '',
       suffix: '+',
       label: 'Happy Customers',
       desc: 'Homes & businesses powered by Srimaan',
     },
     {
-      icon: <Zap className="h-7 w-7 text-eco-green-light" />,
+      icon: <Zap className="h-6 w-6 text-eco-green-light" />,
       value: '10',
       prefix: '',
       suffix: ' MW+',
@@ -58,7 +58,7 @@ const Stats = () => {
       desc: 'Offsetting local grid consumption',
     },
     {
-      icon: <Coins className="h-7 w-7 text-solar-orange" />,
+      icon: <Coins className="h-6 w-6 text-solar-orange" />,
       value: '2',
       prefix: '₹',
       suffix: ' Cr+',
@@ -66,7 +66,7 @@ const Stats = () => {
       desc: 'Cumulative reduction in electricity bills',
     },
     {
-      icon: <Leaf className="h-7 w-7 text-eco-green-light" />,
+      icon: <Leaf className="h-6 w-6 text-eco-green-light" />,
       value: '1000',
       prefix: '',
       suffix: ' Tons',
@@ -76,7 +76,7 @@ const Stats = () => {
   ];
 
   return (
-    <section className="relative py-20 bg-deep-blue text-white overflow-hidden">
+    <section className="relative py-12 bg-deep-blue text-white overflow-hidden">
       {/* Decorative grids */}
       <div className="absolute inset-0 opacity-10 bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
       
@@ -85,20 +85,20 @@ const Stats = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         {/* Title */}
-        <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
-          <div className="inline-flex items-center space-x-2 bg-white/10 border border-white/20 px-3 py-1 rounded-full text-slate-200 font-bold text-sm">
+        <div className="text-center max-w-3xl mx-auto mb-10 space-y-3">
+          <div className="inline-flex items-center space-x-2 bg-white/10 border border-white/20 px-3 py-0.5 rounded-full text-slate-200 font-bold text-xs">
             <span>Our Environmental Impact</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-white">
+          <h2 className="text-2xl sm:text-3xl font-extrabold text-white">
             Srimaan Solar by the Numbers
           </h2>
-          <p className="text-slate-300 text-base">
+          <p className="text-slate-300 text-sm">
             Every panel we configure is a small step towards cleaner air, reduced carbon emissions, and massive monetary savings.
           </p>
         </div>
 
         {/* Stats Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {stats.map((stat, index) => (
             <motion.div
               key={index}
@@ -106,15 +106,15 @@ const Stats = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-50px' }}
               transition={{ duration: 0.6, delay: index * 0.15 }}
-              className="bg-white/5 border border-white/10 p-8 rounded-3xl backdrop-blur-sm text-center flex flex-col items-center justify-between group hover:border-white/20 transition-all duration-300"
+              className="bg-white/5 border border-white/10 p-5 rounded-2xl backdrop-blur-sm text-center flex flex-col items-center justify-between group hover:border-white/20 transition-all duration-300"
             >
               {/* Icon */}
-              <div className="p-4 bg-white/5 rounded-2xl mb-6 group-hover:scale-110 transition-transform">
+              <div className="p-3 bg-white/5 rounded-xl mb-4 group-hover:scale-110 transition-transform">
                 {stat.icon}
               </div>
 
               {/* Counter */}
-              <div className="mb-2">
+              <div className="mb-1">
                 <StatCounter
                   value={stat.value}
                   prefix={stat.prefix}
@@ -124,7 +124,7 @@ const Stats = () => {
 
               {/* Text */}
               <div>
-                <h3 className="text-lg font-bold text-slate-100 mb-1">{stat.label}</h3>
+                <h3 className="text-base font-bold text-slate-100 mb-1">{stat.label}</h3>
                 <p className="text-xs text-slate-400 font-semibold leading-relaxed">{stat.desc}</p>
               </div>
             </motion.div>

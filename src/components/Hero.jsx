@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={rooftopSolar}
-          alt="Rooftop Solar Panels Telangana"
+          alt="Rooftop Solar Panels Andhra Pradesh and Telangana"
           className="w-full h-full object-cover object-center scale-105 transform transition-transform duration-10000"
           style={{ animation: 'zoom-slow 20s infinite alternate' }}
         />
@@ -59,7 +59,7 @@ const Hero = () => {
               className="inline-flex items-center space-x-2 bg-solar-orange/10 backdrop-blur-md border border-solar-orange/30 px-4 py-1.5 rounded-full text-solar-orange font-bold text-sm sm:text-base"
             >
               <Zap className="h-4 w-4 animate-bounce" />
-              <span>Telangana's Leading Solar Partner</span>
+              <span>Andhra Pradesh & Telangana's Leading Solar Partner</span>
             </motion.div>
 
             <motion.h1
@@ -89,7 +89,7 @@ const Hero = () => {
               transition={{ duration: 0.8, delay: 0.5 }}
               className="text-base text-slate-200 max-w-lg leading-relaxed"
             >
-              Join 500+ families across Telangana reducing their electricity bills by up to 90% with modern on-grid, off-grid, and hybrid solar panel systems.
+              Join 200+ families across Andhra Pradesh and Telangana reducing their electricity bills by up to 90% with modern on-grid, off-grid, and hybrid solar panel systems.
             </motion.p>
 
             {/* CTA Buttons */}
@@ -209,7 +209,7 @@ const Hero = () => {
                   </div>
                   <div className="text-left">
                     <span className="block text-[9px] font-bold text-slate-400 uppercase tracking-wider">Active Installs</span>
-                    <span className="block text-sm font-extrabold text-slate-800">500+ Installed</span>
+                    <span className="block text-sm font-extrabold text-slate-800">200+ Installed</span>
                   </div>
                 </motion.div>
               </motion.div>

@@ -44,7 +44,7 @@ const Footer = () => {
   const socialLinks = [
     { name: 'Facebook', icon: <FacebookIcon />, href: 'https://facebook.com' },
     { name: 'Twitter', icon: <TwitterIcon />, href: 'https://twitter.com' },
-    { name: 'Instagram', icon: <InstagramIcon />, href: 'https://instagram.com' },
+    { name: 'Instagram', icon: <InstagramIcon />, href: 'https://www.instagram.com/srimaan_solar/' },
     { name: 'LinkedIn', icon: <LinkedinIcon />, href: 'https://linkedin.com' },
   ];
 
@@ -64,7 +64,7 @@ const Footer = () => {
             </a>
             
             <p className="text-sm text-slate-400 leading-relaxed max-w-sm">
-              TGSPDCL & TGNPDCL authorized solar vendors in Telangana, providing high-efficiency rooftop solar systems under central government subsidy schemes.
+              Authorized solar vendors in Andhra Pradesh & Telangana, providing high-efficiency rooftop solar systems under central government subsidy schemes.
             </p>
 
             {/* Social Icons */}
@@ -110,7 +110,8 @@ const Footer = () => {
                 <span>
                   Srimaan Solar Solutions,<br />
                   Plot 45, Jubilee Hills,<br />
-                  Hyderabad, Telangana, 500033
+                  Hyderabad, Telangana, 500033<br />
+                  (Serving Andhra Pradesh & Telangana)
                 </span>
               </li>
               <li className="flex items-center space-x-3">

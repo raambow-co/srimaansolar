@@ -26,12 +26,12 @@ const WhyChooseUs = () => {
     {
       icon: <Cable className="h-6 w-6 text-eco-green" />,
       title: 'Net Metering Assistance',
-      desc: 'Complete liaisoning with TGNPDCL and TGSPDCL for fast net-meter approval, commissioning, and bi-directional meter installation.',
+      desc: 'Complete liaisoning with state DISCOMs (TGNPDCL/TGSPDCL in Telangana, APEPDCL/APSPDCL in AP) for fast net-meter approval, commissioning, and bi-directional meter installation.',
     },
     {
       icon: <Headphones className="h-6 w-6 text-deep-blue" />,
       title: '24/7 Customer Support',
-      desc: 'Dedicated local service team in Telangana for immediate assistance, remote monitoring dashboard setup, and troubleshooting.',
+      desc: 'Dedicated local service team in Andhra Pradesh and Telangana for immediate assistance, remote monitoring dashboard setup, and troubleshooting.',
     },
   ];
 

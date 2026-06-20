@@ -45,7 +45,7 @@ const Contact = () => {
 
   const whatsappNumber = '919876543210';
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
-    `Hi Srimaan Solar, I would like to get a quote for a rooftop solar installation. My location is ${location || 'Telangana'} and my average monthly bill is ${monthlyBill}.`
+    `Hi Srimaan Solar, I would like to get a quote for a rooftop solar installation. My location is ${location || 'Andhra Pradesh or Telangana'} and my average monthly bill is ${monthlyBill}.`
   )}`;
 
   return (
@@ -91,7 +91,7 @@ const Contact = () => {
             </div>
 
             <div className="pt-6 border-t border-slate-200 text-xs font-semibold text-slate-400 space-y-2">
-              <p>📍 Srimaan Solar Solutions, Hyderabad, Telangana, India</p>
+              <p>📍 Srimaan Solar Solutions, Hyderabad, Telangana & Andhra Pradesh, India</p>
               <p>✉️ support@srimaansolar.com • info@srimaansolar.com</p>
             </div>
           </div>

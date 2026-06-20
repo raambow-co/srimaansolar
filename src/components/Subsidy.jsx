@@ -3,7 +3,6 @@ import { Percent, TrendingUp, Landmark, ShieldAlert, ArrowRight, CheckCircle2 } 
 
 const Subsidy = () => {
   const subsidyRates = [
-    { size: '1 kW System', subsidy: '₹30,000', eligibility: 'Suitable for small houses (1-2 fans, lights, TV)' },
     { size: '2 kW System', subsidy: '₹60,000', eligibility: 'Ideal for medium homes (AC, Fridge, Washing Machine)' },
     { size: '3 kW to 10 kW', subsidy: '₹78,000 (Max)', eligibility: 'Best for large households (Multiple ACs, heavy loads)' },
   ];
@@ -106,7 +105,7 @@ const Subsidy = () => {
               <div className="flex items-start space-x-3 bg-solar-orange/10 border border-solar-orange/20 p-4 rounded-xl">
                 <ShieldAlert className="h-5 w-5 text-solar-orange shrink-0 mt-0.5" />
                 <p className="text-xs text-slate-300 leading-relaxed">
-                  <strong>Note:</strong> Net meters must be registered through official TGSPDCL/TGNPDCL DISCOM portals in Telangana to claim the PM Surya Ghar Yojana subsidies.
+                  <strong>Note:</strong> Net meters must be registered through official state DISCOM portals (like TGSPDCL/TGNPDCL in Telangana, and APEPDCL/APSPDCL/APCPDCL in Andhra Pradesh) to claim the PM Surya Ghar Yojana subsidies.
                 </p>
               </div>
             </div>

@@ -56,11 +56,11 @@ const About = () => {
     {
       icon: <Award className="h-6 w-6 text-solar-orange" />,
       title: '5+ Years Experience',
-      desc: 'Proven track record of delivering clean energy engineering in Telangana.',
+      desc: 'Proven track record of delivering clean energy engineering in Andhra Pradesh and Telangana.',
     },
     {
       icon: <Users className="h-6 w-6 text-eco-green" />,
-      title: '500+ Installations',
+      title: '200+ Installations',
       desc: 'Hundreds of happy residential, commercial, and agricultural clients.',
     },
     {
@@ -96,12 +96,12 @@ const About = () => {
             </div>
             
             <h2 className="text-3xl sm:text-4xl font-extrabold text-deep-blue leading-tight">
-              Empowering Telangana <br />
+              Empowering AP & Telangana <br />
               <span className="text-solar-orange">With Green Energy</span>
             </h2>
             
             <p className="text-slate-600 leading-relaxed text-base">
-              Providing reliable, affordable, and sustainable solar energy solutions across Telangana. We help homeowners, businesses, and industries reduce electricity bills through high-quality solar installations and government subsidy benefits.
+              Providing reliable, affordable, and sustainable solar energy solutions across Andhra Pradesh and Telangana. We help homeowners, businesses, and industries reduce electricity bills through high-quality solar installations and government subsidy benefits.
             </p>
             
             <blockquote className="border-l-4 border-solar-orange pl-4 italic text-slate-500 font-medium">
@@ -118,7 +118,7 @@ const About = () => {
               </div>
               <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm flex flex-col justify-center">
                 <div className="flex items-baseline space-x-0.5">
-                  <Counter value="500" suffix="+" />
+                  <Counter value="200" suffix="+" />
                 </div>
                 <span className="text-sm font-semibold text-slate-500 mt-2">Solar Installations</span>
               </div>

@@ -18,18 +18,21 @@ const Calculator = () => {
   });
 
   const districts = [
-    'Hyderabad', 'Medchal-Malkajgiri', 'Rangareddy', 'Warangal', 
-    'Hanumakonda', 'Karimnagar', 'Nizamabad', 'Khammam', 
-    'Nalgonda', 'Mahabubnagar', 'Sangareddy', 'Adilabad'
+    // Telangana
+    'Hyderabad', 'Warangal', 'Nizamabad', 'Khammam', 
+    'Karimnagar', 'Nalgonda', 'Mahabubnagar', 'Adilabad',
+    // Andhra Pradesh
+    'Visakhapatnam', 'Vijayawada', 'Guntur', 'Tirupati', 
+    'Nellore', 'Kurnool', 'Anantapur', 'Rajahmundry'
   ];
 
   useEffect(() => {
-    // 1. Calculate energy usage. Assume average unit price is ₹8 in Telangana.
+    // 1. Calculate energy usage. Assume average unit price is ₹8 in Andhra Pradesh and Telangana.
     const averageRatePerUnit = 8;
     const monthlyUnits = bill / averageRatePerUnit;
     const dailyUnits = monthlyUnits / 30;
 
-    // 2. Solar generation: In Telangana, 1kW solar produces ~4 units per day.
+    // 2. Solar generation: In Andhra Pradesh and Telangana, 1kW solar produces ~4 units per day.
     // Recommended system size = Daily units / 4, rounded to nearest 0.5 kW
     let recommendedSize = Math.max(1, Math.round((dailyUnits / 4) * 2) / 2);
     
@@ -129,7 +132,7 @@ const Calculator = () => {
                 <div className="space-y-2">
                   <label className="text-sm font-bold text-slate-700 flex items-center gap-1.5">
                     <MapPin className="h-4 w-4 text-solar-orange" />
-                    Installation Location (Telangana)
+                    Installation Location (AP & Telangana)
                   </label>
                   <select
                     value={location}
@@ -206,7 +209,7 @@ const Calculator = () => {
 
             <div className="pt-6 border-t border-slate-200/60 mt-6">
               <p className="text-[11px] text-slate-400 leading-relaxed">
-                * Calculations are approximations based on normal solar irradiances in Telangana. Actual site conditions may alter exact requirements.
+                * Calculations are approximations based on normal solar irradiances in Andhra Pradesh and Telangana. Actual site conditions may alter exact requirements.
               </p>
             </div>
           </div>

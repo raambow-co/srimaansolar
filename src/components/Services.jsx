@@ -91,7 +91,7 @@ const Services = () => {
             Our Core Solar Offerings
           </h2>
           <p className="text-slate-500 text-base sm:text-lg">
-            High-efficiency technology customized for homes, commercial complexes, and industrial warehouses in Telangana.
+            High-efficiency technology customized for homes, commercial complexes, and industrial warehouses in Andhra Pradesh and Telangana.
           </p>
         </div>
 
