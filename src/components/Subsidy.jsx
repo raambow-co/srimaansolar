@@ -29,7 +29,7 @@ const Subsidy = () => {
             </h2>
 
             <p className="text-slate-300 leading-relaxed text-base sm:text-lg">
-              The national rooftop solar scheme offers up to **₹78,000 direct subsidy** transfer to your bank account. As an authorized solar vendor, Srimaan Solar Solutions coordinates your application, site verification, net metering, and subsidy disbursement.
+              The <a href="https://pmsuryaghar.gov.in" target="_blank" rel="noopener noreferrer" className="text-solar-orange-light hover:underline font-semibold">national rooftop solar scheme</a> offers up to **₹78,000 direct subsidy** transfer to your bank account. As an authorized solar vendor, Srimaan Solar Solutions coordinates your application, site verification, net metering, and subsidy disbursement.
             </p>
 
             {/* Benefits Checkboxes */}
@@ -64,13 +64,22 @@ const Subsidy = () => {
               </div>
             </div>
 
-            <div className="pt-4">
+            <div className="pt-4 flex flex-wrap gap-4">
               <a
                 href="#calculator"
                 className="inline-flex items-center bg-solar-orange text-white hover:bg-solar-orange-light font-bold px-6 py-3 rounded-xl shadow-lg shadow-solar-orange/20 transition-all duration-300 group"
               >
                 Estimate Your Subsidy
                 <ArrowRight className="h-4.5 w-4.5 ml-2 group-hover:translate-x-1 transition-transform" />
+              </a>
+              <a
+                href="https://pmsuryaghar.gov.in"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center bg-white/10 hover:bg-white/20 text-white backdrop-blur-md border border-white/20 font-bold px-6 py-3 rounded-xl transition-all duration-300 group"
+              >
+                Visit PM Surya Ghar Portal
+                <ArrowRight className="h-4.5 w-4.5 ml-2 -rotate-45 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
               </a>
             </div>
           </div>

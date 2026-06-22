@@ -47,7 +47,7 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: 'How much does rooftop solar cost in Andhra Pradesh and Telangana?',
+      question: 'How much does rooftop solar cost in Telangana and Andhra Pradesh?',
       answer: 'The initial cost of installing solar panels depends on the system size. On average, a standard residential system in India costs between ₹60,000 to ₹75,000 per kW. For example, a 3kW system costs around ₹1.8 Lakhs to ₹2.1 Lakhs. However, with the PM Surya Ghar Yojana subsidy of ₹78,000, your effective net investment drops to around ₹1.1 Lakhs to ₹1.3 Lakhs.',
     },
     {
@@ -59,8 +59,8 @@ const FAQ = () => {
       answer: 'Premium solar panels are highly durable and are designed to perform for 25 to 30 years. We supply panels that carry a 10 to 12-year product warranty against manufacturing defects and a 25-year linear power output performance warranty, ensuring your panels generate at least 80% to 85% of their original capacity after 25 years.',
     },
     {
-      question: 'What is net metering and how does it work in Andhra Pradesh and Telangana?',
-      answer: 'Net metering is a billing mechanism that credits solar energy system owners for the electricity they add to the grid. In Andhra Pradesh and Telangana, under regional DISCOMs (such as APEPDCL/APSPDCL/APCPDCL in AP and TGNPDCL/TGSPDCL in Telangana), a bi-directional net meter records the electricity you import from the grid and the excess solar electricity you export. At the end of the billing cycle, you are only charged for the net units consumed.',
+      question: 'What is net metering and how does it work in Telangana and Andhra Pradesh?',
+      answer: 'Net metering is a billing mechanism that credits solar energy system owners for the electricity they add to the grid. In Telangana and Andhra Pradesh, under regional DISCOMs (such as TGNPDCL/TGSPDCL in Telangana and APEPDCL/APSPDCL/APCPDCL in AP), a bi-directional net meter records the electricity you import from the grid and the excess solar electricity you export. At the end of the billing cycle, you are only charged for the net units consumed.',
     },
     {
       question: 'Is maintenance required for solar panels?',

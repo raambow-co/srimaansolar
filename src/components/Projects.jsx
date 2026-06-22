@@ -57,7 +57,7 @@ const Projects = () => {
             Our Completed Projects
           </h2>
           <p className="text-slate-500 text-base">
-            Take a look at how we are harnessing solar power to drive sustainability for homes, commercial hubs, and agricultural farmlands across Andhra Pradesh and Telangana.
+            Take a look at how we are harnessing solar power to drive sustainability for homes, commercial hubs, and agricultural farmlands across Telangana and Andhra Pradesh.
           </p>
         </div>
 

@@ -31,7 +31,7 @@ const WhyChooseUs = () => {
     {
       icon: <Headphones className="h-6 w-6 text-deep-blue" />,
       title: '24/7 Customer Support',
-      desc: 'Dedicated local service team in Andhra Pradesh and Telangana for immediate assistance, remote monitoring dashboard setup, and troubleshooting.',
+      desc: 'Dedicated local service team in Telangana and Andhra Pradesh for immediate assistance, remote monitoring dashboard setup, and troubleshooting.',
     },
   ];
 

@@ -45,7 +45,7 @@ const Contact = () => {
 
   const whatsappNumber = '919876543210';
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
-    `Hi Srimaan Solar, I would like to get a quote for a rooftop solar installation. My location is ${location || 'Andhra Pradesh or Telangana'} and my average monthly bill is ${monthlyBill}.`
+    `Hi Srimaan Solar, I would like to get a quote for a rooftop solar installation. My location is ${location || 'Telangana or Andhra Pradesh'} and my average monthly bill is ${monthlyBill}.`
   )}`;
 
   return (

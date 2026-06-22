@@ -39,6 +39,7 @@ const Footer = () => {
     { name: 'Testimonials', href: '#testimonials' },
     { name: 'Calculate Savings', href: '#calculator' },
     { name: 'Get Free Quote', href: '#contact' },
+    { name: 'PM Surya Ghar', href: 'https://pmsuryaghar.gov.in', target: '_blank', rel: 'noopener noreferrer' },
   ];
 
   const socialLinks = [
@@ -64,7 +65,7 @@ const Footer = () => {
             </a>
             
             <p className="text-sm text-slate-400 leading-relaxed max-w-sm">
-              Authorized solar vendors in Andhra Pradesh & Telangana, providing high-efficiency rooftop solar systems under central government subsidy schemes.
+              Authorized solar vendors in Telangana & Andhra Pradesh, providing high-efficiency rooftop solar systems under central government subsidy schemes.
             </p>
 
             {/* Social Icons */}
@@ -92,6 +93,8 @@ const Footer = () => {
                 <li key={link.name}>
                   <a
                     href={link.href}
+                    target={link.target}
+                    rel={link.rel}
                     className="hover:text-solar-orange transition-colors duration-200"
                   >
                     {link.name}
@@ -111,7 +114,7 @@ const Footer = () => {
                   Srimaan Solar Solutions,<br />
                   Plot 45, Jubilee Hills,<br />
                   Hyderabad, Telangana, 500033<br />
-                  (Serving Andhra Pradesh & Telangana)
+                  (Serving Telangana & Andhra Pradesh)
                 </span>
               </li>
               <li className="flex items-center space-x-3">

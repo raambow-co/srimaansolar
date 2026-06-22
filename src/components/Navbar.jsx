@@ -27,6 +27,7 @@ const Navbar = () => {
     { name: 'Projects', href: '#projects' },
     { name: 'Testimonials', href: '#testimonials' },
     { name: 'Contact', href: '#contact' },
+    { name: 'PM Surya Ghar', href: 'https://pmsuryaghar.gov.in', target: '_blank', rel: 'noopener noreferrer' },
   ];
 
   return (
@@ -53,6 +54,8 @@ const Navbar = () => {
                 <a
                   key={link.name}
                   href={link.href}
+                  target={link.target}
+                  rel={link.rel}
                   className="text-sm font-bold text-black hover:text-solar-orange transition-colors duration-200 relative group py-2"
                 >
                   {link.name}
@@ -114,6 +117,8 @@ const Navbar = () => {
                 <a
                   key={link.name}
                   href={link.href}
+                  target={link.target}
+                  rel={link.rel}
                   onClick={() => setIsOpen(false)}
                   className="block px-4 py-3 rounded-xl text-base font-bold text-black hover:text-solar-orange hover:bg-solar-orange/5 transition-all duration-200"
                 >

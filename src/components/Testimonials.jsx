@@ -88,7 +88,7 @@ const Testimonials = () => {
             What Our Customers Say
           </h2>
           <p className="text-slate-500 text-base">
-            Read reviews from homeowners, business leaders, and farmers across Andhra Pradesh and Telangana who transitioned to solar with us.
+            Read reviews from homeowners, business leaders, and farmers across Telangana and Andhra Pradesh who transitioned to solar with us.
           </p>
         </div>
 
